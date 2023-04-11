@@ -1,0 +1,43 @@
+
+#imgDiv{
+}
+
+#childDiv{
+    display: inline-block;
+    margin: 10px;
+}
+
+#imgElement{
+    width: 100px;
+}
+
+#deleteImageButtonDiv{
+    position: relative;
+    vertical-align: middle;
+    /*margin-top: 5px;*/
+    margin-left: 10px;
+}
+
+#deleteImageButtonDiv button{
+    border-width: 0px;
+    margin-bottom: 5px;
+    color: black;
+    border-radius: 15px;
+    background: transparent;
+}
+
+.evenImageInList{
+    background-color: #E8E8E8;
+}
+
+.oddImageInList{
+    background-color: #CACACA;
+}
+
+.thumbnailIsSelected{
+    border: 3px solid darkslategrey;
+}
+
+.thumbnailIsNotSelected{
+
+}

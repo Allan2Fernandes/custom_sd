@@ -1,0 +1,40 @@
+
+#AppDiv{
+    height: 500px;
+    width: 500px;
+}
+
+#imageThumbnailsDiv{
+    position: fixed;
+    top: calc(10% + 550px);
+    left: 550px;
+    height: 170px;
+    width: 912px;
+    display: flex;
+    overflow: auto;
+    box-shadow: 5px 5px 10px rgba(68, 68, 68, 0.6);
+    border-radius: 10px;
+}
+
+#imageThumbnailsDiv::-webkit-scrollbar {
+    height: 10px;
+}
+
+#imageThumbnailsDiv::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#imageThumbnailsDiv::-webkit-scrollbar-thumb {
+    background: #808084;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#imageThumbnailsDiv::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+

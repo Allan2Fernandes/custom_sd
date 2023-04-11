@@ -1,0 +1,95 @@
+
+#MainDiv{
+    position: fixed;
+    top: 10%;
+    left: 550px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #EFEFF4;
+    box-shadow: 5px 5px 10px rgba(68, 68, 68, 0.6);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#TitleCenter{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Serif, serif;
+    margin-bottom: 30px;
+}
+
+#rngDiv{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#rngLabel{
+}
+
+#seedInput{
+    margin-top: 15px;
+    border-width: 0px;
+    border-bottom: 1px solid black;
+    background-color: #EFEFF4;
+    width: 80%;
+}
+
+#seedInput:focus{
+    outline: none;
+}
+
+#seedInput::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#guidanceScaleLabel{
+    margin-left: 20px;
+}
+
+#guidanceScaleInputDiv{
+    margin-left: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+
+#guidanceScaleInput[type="range"]{
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 15rem;
+}
+
+#guidanceScaleInput[type="range"]::-webkit-slider-runnable-track {
+    background: #D7D7D7;
+    border-radius: 7.5rem;
+}
+
+#inferenceStepsDiv{
+    margin-left: 20px;
+}
+
+#inferenceStepsDiv input{
+    margin-top: 10px;
+    border-width: 0px;
+    background-color: #EFEFF4;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+#inferenceStepsDiv input:focus{
+    outline: none;
+}
+
+#inferenceStepsDiv input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}

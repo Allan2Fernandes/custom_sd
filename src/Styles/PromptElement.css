@@ -1,0 +1,34 @@
+
+#PromptElementDiv{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 367px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#PromptElementDiv label{
+    width: 300px;
+    padding: 10px;
+
+}
+
+#removeButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+    border-width: 0px;
+}
+
+.even {
+    background-color: cadetblue;
+    color: white;
+}
+
+.odd {
+    background-color: darkslategrey;
+    color: white;
+}

@@ -1,0 +1,109 @@
+
+
+#MainPromptDiv{
+    position: fixed;
+    left: 100px;
+    top: 10%;
+    height: 720px;
+    width: 400px;
+    background-color: #EFEFF4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(68, 68, 68, 0.6);
+}
+
+#promptTitleCenter{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Serif;
+    font-size: 30px;
+}
+
+#posPromptLabel{
+    margin-left: 15px;
+}
+
+#positivePromptInput{
+    background-color: #EFEFF4;
+    margin-left: 15px;
+    margin-top: 50px;
+    border-width: 0;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+
+#positivePromptInput:focus{
+    background-color: #EFEFF4;
+    outline: none;
+}
+
+#AddPromptButton{
+    border-width: 0px;
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #5a79ba;
+    color: white;
+}
+
+#AddPromptButton:active{
+    background-color: green;
+
+}
+
+#negativePromptInput{
+    background-color: #EFEFF4;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-width: 0;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+
+#negativePromptInput:focus{
+    background-color: #EFEFF4;
+    outline: none;
+}
+
+#listItemsDiv{
+    margin-top: 40px;
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+}
+
+#listItemsDiv::-webkit-scrollbar{
+    width: 10px;
+}
+
+#listItemsDiv::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#listItemsDiv::-webkit-scrollbar-thumb{
+    background: #808084;
+    border-radius: 10px;
+}
+
+#listItemsDiv::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+
+#GenerateImageButton{
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    border: 0px solid black;
+    background-color: #5a79ba;
+    color: white;
+}
+
+#GenerateImageButton label{
+    margin-left: 5px;
+}
+
+
+
